@@ -47,21 +47,51 @@ span{
 
 .img1, .img2, .img3, .img4 {
   float: left;
-  padding: 5px;
+  padding: 10px 5px 20px 0px;
   
 }
 .lessons h3{
  border-bottom: 2px solid #dee7ec;
 }
 textarea{
-  width: 300px;
-  height:50px;
-  border-color:#dee7ec; 
+  width: 350px;
+  height:40px;
+  border-color:#dee7ec;
+  padding: 15px;
+  font-size: 18px;
   
 }
 input{
-  width: 300px;
+  width: 350px;
   height:50px;
   border-color:#dee7ec;
   background-color: #dee7ec;
+  color: #889eab;
+}
+.contact h3{
+  padding-bottom: 30px;
+}
+.contact p{
+  padding-bottom: 8px;
+  padding-top: 25px;
+}
+footer{
+ height: 120px;
+  color: white;
+   background-color: #2f5167;
+  
+}
+footer ul {
+  float: right;
+  padding: 20px 30px 20px 0px;
+  
+}
+footer ul li{
+  padding-bottom: 5px;
+}
+.progate{
+  float:left;
+  font-size: 30px;
+  padding-left: 40px;
+  padding-top: 20px;
 }
