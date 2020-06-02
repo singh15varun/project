@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+/* Write your code below */
+header{
+  background-color:#26d0c9;
+  color:white;
+  height:80px;
+
+}
+.logo{
+  float:left;
+  padding:20px 40px 20px 40px;
+  font-size:30px;
+  
+}
+.list li{
+  float:left;
+  padding:30px 20px 33px 20px;
+  font-size:16px;
+}
+.body{
+  padding:100px 80px 100px 80px;
+}
+.top{
+  padding-bottom: 20px;
+}
+.top h1{
+  font-size:100px;
+}
+.top h2{
+  font-size:60px;
+}
+span{
+  color:red;
+}
+
+.img1, .img2, .img3, .img4 {
+  float: left;
+  padding: 5px;
+  
+}
+.lessons h3{
+ border-bottom: 2px solid #dee7ec;
+}
+textarea{
+  width: 300px;
+  height:50px;
+  border-color:#dee7ec; 
+  
+}
+input{
+  width: 300px;
+  height:50px;
+  border-color:#dee7ec;
+  background-color: #dee7ec;
+}
