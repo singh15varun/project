@@ -3,14 +3,51 @@
 	padding: 0;
 	font-family: "Lucida Grande";
 }
+.stick{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 50px;
+	width: 100%;
+	background-color: rgba(74,77,90,0.4);
+	color: white;
+	
+}
+.logo{
+	font-size: 25px;
+
+}
+.logo-line{
+	font-size: 15px;
+	text-align: center;
+}
+.login{
+	float: right;
+	position: relative;
+	top: -41px;
+	right: 60px;
+
+}
+.login button{
+	padding: 10px 15px 10px 15px;
+	height: 40px;
+	border:none;
+	background-color: rgba(74,77,90,0.5);
+	outline: none;
+	color: white;
+}
+.login button:active{
+	background-color: rgba(74,77,90,1);
+}
+
 header{
 	background-image: url("https://prog-8.com/images/html/advanced/top_en.png");
-	height: 500px;
+	height: 540px;
 	color: white;
 	text-align: center;
 }
 .heading h1{
-	font-size: 48px;
+	font-size: 50px;
 }
 .heading p{
 	font-size: 16px;
@@ -20,7 +57,7 @@ header{
 }
 .heading{
 	opacity: 0.8;
-	padding-top: 70px;
+	padding-top: 120px;
 }
 .email{
 	background-color: #239b76;
